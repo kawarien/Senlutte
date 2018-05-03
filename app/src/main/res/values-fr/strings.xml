@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Senlutte</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="connection">Connexion</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="inscription">Inscription</string>
+    <string name="email">contact@senlutte.sn</string>
+    <string name="help">Aide</string>
+    <string name="cancel">Annuler</string>
+    <string name="last_name">Nom</string>
+    <string name="save">Enregistrer</string>
+    <string name="welcame">Senlutte</string>
+    <string name="waiting">Patientez svp ...</string>
+    <string name="error_connetion">remplissez les champs svp ...</string>
+    <string name="error_parameters">Parametre invalide ...</string>
+    <string name="error_filds">Connexion requiert ...</string>
+    <string name="success_save">Utilisateur enregistré</string>
+    <string name="success_update">Utilisateur modifié</string>
+    <string name="success_delete">Utilisateur supprimé</string>
+    <string name="error_save">Utilisateur non enregistré</string>
+    <string name="error_update">Utilisateur non modifié</string>
+    <string name="error_delete">Utilisateur non supprimé</string>
+    <string name="add_user">Ajouter un utilisateur</string>
+    <string name="update_user">Modifier un utilisateur</string>
+    <string name="delete_user">Supprimer un utilisateur</string>
+    <string name="list_user">Listez les utilisateurs</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+
+
+
+
+</resources>
+
+

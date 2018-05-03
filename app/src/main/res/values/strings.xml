@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Senlutte</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="connection">Connection</string>
+    <string name="login">Login</string>
+    <string name="last_name">Name</string>
+    <string name="password">Password</string>
+    <string name="inscription">Inscription</string>
+    <string name="email">contact@senlutte.com</string>
+    <string name="welcame">Senlutte</string>
+    <string name="help">Help</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="success_save">User saved</string>
+    <string name="success_update">User update</string>
+    <string name="success_delete">User deleted</string>
+    <string name="error_save">User not saved</string>
+    <string name="error_update">User not updated</string>
+    <string name="error_delete">User not deleted</string>
+    <string name="add_user">Add User</string>
+    <string name="update_user">Update User</string>
+    <string name="delete_user">Delete User</string>
+    <string name="list_user">List User</string>
+    <string name="title_activity_university">Map</string>
+    <string name="error_filds">Required filds ...</string>
+    <string name="waiting">Please wait ...</string>
+    <string name="error_connetion">Connection failed ...</string>
+    <string name="error_parameters">Invalid parameters ...</string>
+    <string name="forgot_password">Forgot your password ?</string>
+
+
+
+
+</resources>
+
+

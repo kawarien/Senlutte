@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    tools:context="com.wakapp.controler.senlutte.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="211dp"
+        android:layout_height="64dp"
+        android:text="@string/welcame"
+        android:textSize="@android:dimen/app_icon_size"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:text="@string/welcame" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:drawableLeft="@drawable/ic_action_use"
+        android:ems="10"
+        android:hint="@string/login"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="232dp"
+        android:layout_height="63dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:text="@string/connection"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:text="@string/inscription"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:text="@string/inscription" />
+
+</android.support.constraint.ConstraintLayout>
