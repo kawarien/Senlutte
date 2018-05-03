@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     tools:context="com.wakapp.controler.senlutte.MainActivity"
     tools:layout_editor_absoluteY="25dp">
 
@@ -12,50 +11,66 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="211dp"
-        android:layout_height="64dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="38dp"
         android:text="@string/welcame"
         android:textSize="@android:dimen/app_icon_size"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/welcame" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtLogin"
         android:layout_width="232dp"
-        android:layout_height="64dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
         android:drawableLeft="@drawable/ic_action_use"
         android:ems="10"
         android:hint="@string/login"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="142dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtPassword"
         android:layout_width="232dp"
-        android:layout_height="63dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
         android:drawableLeft="@drawable/ic_action_pass"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="227dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnConnexion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogin" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnConnexion"
         android:layout_width="232dp"
-        android:layout_height="64dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="29dp"
         android:text="@string/connection"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnInscription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnInscription"
         android:layout_width="232dp"
-        android:layout_height="64dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="91dp"
         android:text="@string/inscription"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConnexion"
         tools:text="@string/inscription" />
 
 </android.support.constraint.ConstraintLayout>
