@@ -2,12 +2,13 @@
     <string name="app_name">Senlutte</string>
 
 
-
     <string name="action_settings">Settings</string>
     <string name="connection">Connection</string>
-    <string name="login">Login</string>
+    <string name="login">Username</string>
     <string name="last_name">Name</string>
+    <string name="rt_password">Confirm password</string>
     <string name="password">Password</string>
+    <string name="number">Number</string>
     <string name="inscription">Inscription</string>
     <string name="email">contact@senlutte.com</string>
     <string name="welcame">Senlutte</string>
@@ -30,8 +31,6 @@
     <string name="error_connetion">Connection failed ...</string>
     <string name="error_parameters">Invalid parameters ...</string>
     <string name="forgot_password">Forgot your password ?</string>
-
-
 
 
 </resources>

@@ -7,6 +7,8 @@
     <string name="connection">Connexion</string>
     <string name="login">Identifiant</string>
     <string name="password">Mot de passe</string>
+    <string name="rt_password">Confirmer le Mot de passe</string>
+    <string name="number">Numéro</string>
     <string name="inscription">Inscription</string>
     <string name="email">contact@senlutte.sn</string>
     <string name="help">Aide</string>
