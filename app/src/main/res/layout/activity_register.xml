@@ -9,68 +9,86 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="202dp"
-        android:layout_height="62dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="43dp"
         android:text="@string/inscription"
         android:textSize="36sp"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/inscription" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
         android:ems="10"
         android:hint="@string/last_name"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
         android:ems="10"
         android:hint="@string/login"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="200dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="270dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintStart_toStartOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <EditText
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
         android:ems="10"
         android:hint="@string/rt_password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="338dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText7"
+        app:layout_constraintStart_toStartOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
         android:ems="10"
         android:hint="@string/number"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/editText6"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
         android:text="@string/inscription"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="473dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
 </android.support.constraint.ConstraintLayout>
