@@ -31,6 +31,16 @@
     <string name="error_connetion">Connection failed ...</string>
     <string name="error_parameters">Invalid parameters ...</string>
     <string name="forgot_password">Forgot your password ?</string>
+    <string name="tablea_bord">Dashbord</string>
+    <string name="comba">Fight</string>
+    <string name="presentation">Presentation</string>
+    <string name="aide">Help</string>
+    <string name="stade">Stages</string>
+    <string name="resultat">Results</string>
+    <string name="palmares">Prize list</string>
+    <string name="apropos">About</string>
+    <string name="tickets">Tickets</string>
+    <string name="contact">Contact</string>
 
 
 </resources>

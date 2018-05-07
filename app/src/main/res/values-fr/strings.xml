@@ -31,6 +31,19 @@
     <string name="delete_user">Supprimer un utilisateur</string>
     <string name="list_user">Listez les utilisateurs</string>
     <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="tablea_bord">Tableau de Bord</string>
+    <string name="comba">Combat</string>
+    <string name="presentation">La lutte</string>
+    <string name="aide">Aide</string>
+    <string name="stade">Stades</string>
+    <string name="resultat">Resultats</string>
+    <string name="palmares">Palmarès</string>
+    <string name="apropos">A propos</string>
+    <string name="tickets">Tickets</string>
+    <string name="contact">Contact</string>
+
+
+
 
 
 

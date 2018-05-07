@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
 
-                    //Intent intent=new Intent(ConnexionActivity.this,HomeActivity.class);
-                    // startActivity(intent);
+                    Intent intent=new Intent(MainActivity.this,Daschbord.class);
+                    startActivity(intent);
                 }
             }
         });
